@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flower Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="welcome-page">
+        <h1>Welcome to Our Flower Shop</h1>
+        <div class="buttons">
+            <button onclick="goToPage('custom-bouquet')">Custom Bouquet</button>
+            <button onclick="goToPage('wedding-bouquets')">Wedding Bouquets</button>
+            <button onclick="goToPage('engagement-bouquets')">Engagement Bouquets</button>
+            <button onclick="showContact()">Contact Us</button>
+        </div>
+    </div>
+
+    <div id="cart-container">
+        <span>Cart: <span id="cart-count">0</span> items</span>
+    </div>
+
+    <div id="page-container" class="hidden">
+        <div id="custom-bouquet" class="page hidden">
+            <h2>Custom Bouquet</h2>
+            <div class="flower-item">
+                <img src="flower1.jpg" alt="Flower 1">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="flower2.jpg" alt="Flower 2">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="flower3.jpg" alt="Flower 2">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="flower4.jpg" alt="Flower 2">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="flower5.jpg" alt="Flower 2">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="flower6.jpg" alt="Flower 2">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="flower7.jpg" alt="Flower 2">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="flower8.jpg" alt="Flower 2">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="flower9.jpg" alt="Flower 2">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="flower10.jpg" alt="Flower 2">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+        <div id="wedding-bouquets" class="page hidden">
+            <h2>Wedding Bouquets</h2>
+            <div class="flower-item">
+                <img src="wed1.jpg" alt="Wedding Bouquet 1">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="wed2.jpg" alt="Wedding Bouquet 1">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="wed3.jpg" alt="Wedding Bouquet 1">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="wed4.jpg" alt="Wedding Bouquet 1">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="wed5.jpg" alt="Wedding Bouquet 1">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="wed6.jpg" alt="Wedding Bouquet 1">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="wed7.jpg" alt="Wedding Bouquet 1">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="wed8.jpg" alt="Wedding Bouquet 1">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="wed9.jpg" alt="Wedding Bouquet 1">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="wed10.jpg" alt="Wedding Bouquet 1">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+        <div id="engagement-bouquets" class="page hidden">
+            <h2>Engagement Bouquets</h2>
+            <div class="flower-item">
+                <img src="eng1.jpg" alt="Engagement Bouquet 1">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="eng2.jpg" alt="Engagement Bouquet 1">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="eng3.jpg" alt="Engagement Bouquet 1">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="eng4.jpg" alt="Engagement Bouquet 1">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="eng5.jpg" alt="Engagement Bouquet 1">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="eng6.jpg" alt="Engagement Bouquet 1">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="eng7.jpg" alt="Engagement Bouquet 1">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="eng8.jpg" alt="Engagement Bouquet 1">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="eng9.jpg" alt="Engagement Bouquet 1">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="eng10.jpg" alt="Engagement Bouquet 1">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
